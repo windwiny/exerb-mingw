@@ -11,7 +11,7 @@ Packaged ruby source files and required other (*.rb *.so *.dll) to a .exe file.
     cd %DEVKITPATH%      # install path, like c:/rbmingw  
     ruby dk.rb init  
     notepad config.yml  # edit config file,  set ruby installed path  
-    ruby install  
+    ruby dk.rb install  
     ruby -e "require 'devkit'; puts ENV\['RI_DEVKIT']" # test, ensure the path is %DEVKITPATH%  
 
 2. install gem
